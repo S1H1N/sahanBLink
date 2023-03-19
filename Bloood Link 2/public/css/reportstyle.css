@@ -1,0 +1,137 @@
+body{
+    margin: 0rem 8rem;
+}
+
+/* ---------------------nav--------------------- */
+div.navbar {
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    background-color: #FFD1D1;
+    justify-content: space-between;
+    /* box-shadow: 0px 3px 10px grey; */
+}
+
+div.nleft {
+    margin-left: 1rem;
+    display: flex;
+    height: 6rem;
+    align-items: center;
+}
+
+/* div.imge {
+    display: flex;
+    
+    height: 6rem;
+    width: 6rem;
+    margin-left: 1.5rem;
+}*/
+
+img.logo {
+    width: 5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+/*div.vbar {
+    height: 6rem ;
+}*/
+
+div.blink   {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: "Poppins";
+    padding: 0rem;
+}
+
+div.phi {
+    margin-bottom: 10px;
+}
+
+div.nright {
+    margin-right: 3rem;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.name {
+    margin-right: 2rem;
+    margin-bottom: 7px;
+}
+
+img.shut {
+    width: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+div.camptitle {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vbar {
+    border-left: 3px solid black;
+    height:4rem;
+    padding-left:1rem;
+
+}
+
+div.imge {
+    padding-right:1rem;
+
+}
+
+
+/* a:hover{
+    font-size: 2.2rem;
+
+} */
+
+
+
+/* ---------------------nav end----------------- */
+div.section{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.content{
+    width: 92%;
+    /* height: 5rem; */
+    background-color: rgb(239, 21, 58);
+}
+
+div.ttl,div.stat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+}
+div.canarea {
+    width: 45rem;
+    height: 15rem;
+    background-color: #ffffff;
+    /* box-shadow: 0px 3px 10px grey; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+    padding: 1rem;
+    /* border-radius: 1rem; */
+    margin: auto;
+    text-align: center;
+    /* background-color: lightgray; */
+  }
+
+  .g{
+    font-size: 1.3rem;
+  }

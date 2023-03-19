@@ -1,0 +1,157 @@
+div.formarea{
+    width: 90%;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    /* box-shadow: 0px 3px 10px grey; */
+    /* background-color: #ffffff; */
+    /* overflow: hidden; */
+    /* border-radius: 1rem; */
+    /* height: 27rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+div.formcontrol{
+    display: flex;
+    flex-direction: row;
+}
+
+div.doc2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+input{
+    padding: 0.4rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+}
+
+input.docname{
+    width: 60rem;
+   
+}
+
+input#docid,input#docbb,input#reqbb,input#reqdate,input#bldtype,input#bldgrp{
+    width: 20rem;
+    
+}
+
+div.didin{
+    padding-left: 4rem;
+}
+div.bbin{
+    padding-left: 4rem;
+}
+
+div.dashline{
+    padding-top: 2rem;
+    border-bottom: 1px dashed black;
+    width: 90%;
+    margin-bottom: 2rem;
+
+    /* margin-left: 3rem; */
+}
+
+div.bbpart{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 73rem;
+    /* width: 93.5%; */
+     /* gap: 19rem;  */
+}
+
+div.docnamein{
+    padding-left: 2rem;
+}
+
+div.reqbblbl{
+    padding-left: 1.7rem;
+}
+
+div.reqbbin{
+    padding-left: 1rem;
+}
+
+div.reqdin{
+    padding-left: 4rem;
+    padding-right: 1.5rem;
+}
+
+div.bld1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 73rem;
+    /* width: 93.5%; */
+     /* gap: 19rem;  */
+}
+
+div.bldtlbl{
+    padding-left: 1.7rem;
+}
+
+div.bldtin{
+    padding-left: 3rem;
+}
+
+div.bldgin{
+    padding-left: 4rem;
+    padding-right: 1.5rem;
+}
+
+div.bld2{
+    padding-top: 2rem;
+}
+
+
+/* valid */
+
+.formcontrol.error input{
+    border-color: rgb(250, 7, 7);
+}
+
+.formcontrol.success input{
+    border-color: rgb(7, 250, 7);
+}
+
+.formcontrol small {
+    visibility:hidden;
+    /* padding-left:1rem;
+    color:red; */
+}
+
+.formcontrol.error small {
+    visibility:visible;
+    padding-left:1rem;
+    color:red;
+}
+
+.formcontrol  i{
+    visibility: hidden;
+    position:absolute;
+    /* right:10px; */ 
+    padding-top:0.5rem;
+    padding-left:0.1rem
+}
+
+.formcontrol.success  i.fa-circle-check{
+    visibility: visible;
+    color:green;
+    padding-left:-2rem;
+}
+
+.formcontrol.error  i.fa-circle-exclamation{
+    visibility: visible;
+    color:red;
+    /* padding-left:-2rem; */
+}

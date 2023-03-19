@@ -1,0 +1,124 @@
+div.rby {
+    font-size:1.4rem;
+    padding-left:8rem;
+    padding-top:1.4rem;
+
+}
+
+div.rtitle {
+    font-size:2rem;
+    padding-left:8rem;
+    padding-top:2rem;
+}
+
+div.rdate {
+    font-size:1.4rem;
+    padding-left:8rem;
+    padding-top:1.4rem;
+}
+
+div.rdes {
+    padding-left:8rem;
+    padding-top:1.4rem;
+
+}
+
+div.rrep {
+    padding-left:8rem;
+    padding-top:1.4rem;
+
+}
+
+button.repbtn {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    border: none;
+    background-color: #FD9F9F;
+    font-size:1.1rem;
+
+}
+a.link {
+    text-decoration:none;
+    color:black;
+}
+
+u.rep {
+    color:green;
+}
+
+div.rdes {
+    padding-right:8rem;
+}
+
+.vbar {
+    border-left: 3px solid black;
+    height:4rem;
+    padding-left:1rem;
+
+}
+div.imge {
+    padding-right:1rem;
+
+}
+
+
+/* from styles2.css */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: "Poppins";
+}
+
+div.navbar {
+    display: flex;
+    height: 6rem;
+    background-color: #FFD1D1;
+    justify-content: space-between;
+}
+
+div.nleft {
+    display: flex;
+    height: 6rem;
+    align-items: center;
+}
+
+img.logo {
+    width: 5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+div.blink   {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: "Poppins";
+    padding: 0rem;
+}
+
+div.phi {
+    margin-bottom: 10px;
+}
+
+div.nright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.name {
+    margin-right: 2rem;
+    margin-bottom: 7px;
+}
+
+img.shut {
+    width: 1.5rem;
+    margin-right: 1rem;
+
+}

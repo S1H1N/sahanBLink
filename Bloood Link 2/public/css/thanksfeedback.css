@@ -1,0 +1,22 @@
+html {
+    font-family: "Poppins"
+}
+
+.main{
+    height: 40rem;
+    width :100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    height: 25rem;
+    width: 35rem;
+    background: #FCDDDD;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

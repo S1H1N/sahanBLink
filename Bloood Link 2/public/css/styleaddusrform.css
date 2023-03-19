@@ -1,0 +1,143 @@
+/* -----------------------------------validation-------------------------------------*/
+
+.formcontrol.error input{
+    border-color: rgb(250, 7, 7);
+}
+
+.formcontrol.success input{
+    border-color: rgb(7, 250, 7);
+}
+
+.formcontrol small {
+    visibility:hidden;
+    /* padding-left:1rem;
+    color:red; */
+}
+
+.formcontrol.error small {
+    visibility:visible;
+    padding-left:1rem;
+    color:red;
+}
+
+.formcontrol  i{
+    visibility: hidden;
+    position:absolute;
+    /* right:10px; */ 
+    padding-top:0.5rem;
+    padding-left:0.1rem
+}
+
+.formcontrol.success  i.fa-circle-check{
+    visibility: visible;
+    color:green;
+    padding-left:-2rem;
+}
+
+.formcontrol.error  i.fa-circle-exclamation{
+    visibility: visible;
+    color:red;
+    /* padding-left:-2rem; */
+}
+/* ------------------------------validation end------------------------------- */
+
+div.heading {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+div.exnav,div.heading {
+    padding-left: 1.5rem;
+}
+
+/* div.exnav{
+    width: 100%;
+} */
+
+
+div.in {
+    padding-left: 1rem;
+    width: 85%;
+    
+}
+
+/*input{
+    box-shadow: inset 2px 3px 8px rgba(0, 0, 0, 0.11);
+    border-radius: 3px;
+    outline-color: grey;
+    width: 75%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+
+}*/
+form{
+    padding:1rem ;
+}
+
+input {
+    width: 100%;
+    padding: 0.4rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+}
+
+/* div.in.dec { */
+    /* height: 3rem; */
+/* } */
+
+button {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    margin-right: 2rem;
+    border: none;
+    background-color: #FD9F9F;
+}
+
+div.q {
+    font-size: 1.2rem;
+}
+
+.vbar {
+    border-left: 3px solid black;
+    height:4rem;
+    padding-left:1rem;
+
+}
+
+div.imge {
+    padding-right:1rem;
+
+}
+button:hover {
+    background-color:darkred;
+    color:white;
+}
+
+div.exnav {
+    display: flex;
+    flex-direction:row;
+}
+
+div.formpt {
+    width:40rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 10px grey;
+
+}
+
+div.imgpt {
+    display: flex;
+    padding-left: 10rem;
+
+}
+
+div.imgbox {
+    width: 25rem;
+    height: 25rem;
+    border-style:dashed;
+    border-color:grey;
+    background-color: lightgray;
+}

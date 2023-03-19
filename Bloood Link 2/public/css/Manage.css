@@ -1,0 +1,104 @@
+.button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #E4E4E4;
+
+    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    background: #F03E3E;
+    border-radius: 1rem;
+
+    font-size: 1rem;
+    color: #E4E4E4;
+    margin-right: 44.2rem;
+}
+
+.input {
+    width: 20rem;
+    height: 2.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #E4E4E4;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+
+    background: #F3F3F3;
+    border-radius: 0.6rem;
+}
+
+.two_col {
+    display: flex;
+    justify-content: space-between;
+}
+.two_col1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input1 {
+    width: 20rem;
+    height: 2.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #E4E4E4;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+
+    background: #F3F3F3;
+    border-radius: 0.6rem;
+
+    margin-left: 6.5rem;
+}
+
+.input2 {
+    width: 20rem;
+    height: 2.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #E4E4E4;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+
+    background: #F3F3F3;
+    border-radius: 0.6rem;
+
+    margin-right: 44.2rem;
+}
+
+.label{
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+}
+
+.br{
+    margin-bottom: 2rem;
+}
+
+.input3 {
+    width: 20rem;
+    height: 2.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #E4E4E4;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+
+    background: #F3F3F3;
+    border-radius: 0.6rem;
+
+    margin-left: 2.5rem;
+}
+
+.input4 {
+    width: 20rem;
+    height: 2.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #E4E4E4;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+
+    background: #F3F3F3;
+    border-radius: 0.6rem;
+
+    margin-right: 44.2rem;
+}

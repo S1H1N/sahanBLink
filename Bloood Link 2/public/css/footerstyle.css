@@ -1,0 +1,16 @@
+/* ---------------------------foooter-------------------- */
+
+div.footer {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    height: 6rem;
+    background-color: #FFD1D1;
+    justify-content: center;
+    box-shadow: 0px 3px 10px grey;
+}
+
+div.foocontent{
+    margin-top: 2rem;
+}

@@ -1,0 +1,150 @@
+div.campname {
+    font-size: 2rem;
+    /* font-weight: normal;
+    font-family: "Poppins";*/
+    padding-left: 2rem;
+    padding-top:1rem;
+
+}
+div.imgplc {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    padding-top:1rem;
+    padding-left:2rem;
+
+
+}
+
+div.imgg {
+    width: 20rem;
+    height: 20rem;
+    /* border-style:dashed; */
+    border-color:grey;
+    background-color: lightgray;
+    background-image: url("./images/backlogo.png");
+    background-size: cover;
+    /* padding-top:1rem; */
+
+    
+}
+div.splits {
+    display:flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
+div.splitleft {
+    display:flex;
+    flex-direction: column;
+    /* position: fixed; */
+    width: 50rem;
+    /* align-items:center; */
+}
+
+div.splitright {
+    display:flex;
+    /* padding-left:30rem; */
+    padding-right:6rem;
+
+/*flex-direction: column;*/
+    width: 100%;
+    /* position: fixed; */
+}
+div.campname {
+    font-size: 2rem;
+/* font-weight: normal;
+font-family: "Poppins";
+padding: 1rem;*/
+}
+div.desc {
+    display: flex;
+}
+
+.det {
+    padding-left:2rem;
+    padding-top:1rem;
+
+}
+
+.place, .time, .date, .bbank,  .orgby, .pno {
+    padding-bottom:0.5rem;
+    font-size:1rem;
+}
+
+/* from styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: "Poppins";
+}
+
+div.navbar {
+    display: flex;
+    height: 6rem;
+    background-color: #FFD1D1;
+    justify-content: space-between;
+}
+
+div.nleft {
+    display: flex;
+    height: 6rem;
+    align-items: center;
+}
+
+img.logo {
+    width: 5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+div.blink   {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: "Poppins";
+    padding: 0rem;
+}
+
+div.phi {
+    margin-bottom: 10px;
+}
+
+div.nright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.name {
+    margin-right: 2rem;
+    margin-bottom: 7px;
+}
+
+img.shut {
+    width: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+button.btnonet {
+    font-family: "Poppins" !important;
+    transition: background-color 0.5s ease;
+
+
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    margin-left: 85rem;
+    border: none;
+    background-color: #FD9F9F;
+    
+}
+.btnonet:hover {
+    background-color:rgb(246, 41, 41);
+    color:white;
+}

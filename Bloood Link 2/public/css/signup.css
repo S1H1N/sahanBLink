@@ -1,0 +1,230 @@
+html {
+    font-family: "Poppins"
+}
+
+body {
+    background-image: url("../../public/images/sign_back.png");
+    background-color: #cccccc;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60rem;
+    height: 65rem;
+    margin-left: -6rem;
+
+
+}
+
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+    width: 40rem;
+    height: 63rem;
+
+
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(50.9423px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 45.1794px;
+}
+
+
+
+.logo-1 {
+    width: 200px;
+    height: 245px;
+
+}
+
+
+
+
+.Create-your-account {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.f{
+padding-bottom: 18px;
+}
+
+.input {
+    border-radius: 15px;
+
+    font-family: "Poppins";
+
+    margin-bottom: 0.1rem;
+    padding-left: 0.8rem;
+    height: 3rem;
+    width: 26rem;
+    border: 0.045rem solid black;
+}
+.btn-div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #FF8080;
+    border-radius: 15px;
+    height: 55px;
+    width: 350px;
+    border:none;
+    align-self: center;
+}
+
+.getting-started {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #0c0b0b;
+}
+
+.forget-password {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.small {
+    width: 15.5rem;
+}
+
+.check {
+    width: 5rem;
+    height: 2rem;
+}
+
+.f.success>input {
+    border: 0.04rem solid #98C03C;
+}
+
+.f.success i.fa-circle-check,
+.f12.success i.fa-circle-check {
+    visibility: visible;
+    color: #98C03C;
+}
+
+.f.error input {
+    border: 0.05rem solid #ec4532;
+}
+
+
+
+input:focus {
+    outline-color: #b1b3b5;
+}
+
+.f,
+.f12 {
+    margin-bottom: 0.1rem;
+    position: relative;
+    color: #b1b3b5;
+}
+
+.f12>i {
+    position: absolute;
+    right: -2rem;
+    top: 1.2rem;
+    visibility: hidden;
+}
+
+.f12>small {
+    position: absolute;
+    /* left: 7rem;
+    top: 2.3rem; */
+    visibility: hidden;
+}
+
+.f>i {
+    position: absolute;
+    top: 1.1rem;
+    right: 0.8rem;
+    visibility: hidden;
+}
+
+
+
+
+
+
+.name,
+.nic,
+.city,
+.f,
+.f12 {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+input:hover {
+    border: 0.045rem solid #001ec5;
+}
+
+#register:hover {
+    background-color: rgb(255, 255, 255);
+    color: #98C03C;
+}
+
+
+.f>small {
+    position: absolute;
+    margin-top: 0.2rem;
+    top: 3rem;
+    left: 0.8rem;
+    visibility: hidden;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #b1b3b5;
+    opacity: 1;
+    /* Firefox */
+}
+.f.error i.fa-circle-exclamation,
+.f12.error i.fa-circle-exclamation {
+    visibility: visible;
+    color: #ec4532;
+}
+
+.f.error small,
+.f12.error small {
+    visibility: visible;
+    color: #ec4532;
+}
+
+
+@media all and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}

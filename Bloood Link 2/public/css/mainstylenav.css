@@ -1,0 +1,144 @@
+div.sidebar {
+    background-color: #FD9F9F;          
+    width: 15rem;
+    height: 100vh;
+    margin-left: -15rem;
+    position: fixed;
+   /* display: flex;
+    height: 1117px;
+    width: 330px; */
+
+}
+
+div.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+div.l1 {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div.l11,div.l12, div.l13,div.l14,div.l21 {
+    display: flex;
+    padding-left: 0.5rem;
+    /* flex-direction: column; */
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
+    align-items: center;
+    height: 3rem;
+    transition: background-color 0.5s ease;
+    /* border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem; */
+    border-radius: 0.5rem;
+}
+
+.l11:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+}
+
+.l11:hover .l11img{
+    visibility: hidden;
+}
+
+.l12:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+
+}
+.l12:hover .l12img{
+    visibility: hidden;
+}
+
+.l13:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+
+}
+.l13:hover .l13img{
+    visibility: hidden;
+}
+
+.l14:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+
+}
+.l14:hover .l14img{
+    visibility: hidden;
+}
+
+.l21:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+
+}
+.l21:hover .l21img{
+    visibility: hidden;
+}
+
+
+div.das {
+    font-size: 1.3rem;
+}
+
+/* div.das:hover {
+    font-size: 1.6rem;
+} */
+
+div.l14{
+    height: 4rem;
+}
+/* other */
+
+/* div.sidebar {
+    width:14rem;
+    height: 100vh;
+
+} */
+
+div.l1, div.l2 {
+    padding-left:0.8rem
+}
+
+
+
+/* div.blinkphi {
+    
+} */
+
+
+
+
+
+
+
+div.l11,div.l12, div.l13,div.l14,div.l21 {
+    align-items:center;
+}
+
+.dasimg, .ugimg, .bdimg, .blimg, .acimg {
+    height:1.7rem;
+    padding-top:2px;
+}
+
+div.das {
+    padding-left:3px;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+.chk{
+    display: none;
+    z-index: 4;
+}

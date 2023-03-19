@@ -1,0 +1,165 @@
+/* ----------navbar--styles------- */
+html {
+    font-family: "Poppins"
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nav-logo {
+    height: 6.5rem;
+    width: 5.5rem;
+    margin-top: 0.5rem;
+   
+}
+.nav-i-logo{
+    height: 100px;
+    margin: 0;
+    }
+.nav-user-icon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+    
+}
+
+.navbar{
+    width: 100%;
+   
+    display: flex;
+    flex-direction:row;
+}
+.left{
+    height: 6rem;
+    display: flex;
+    justify-content:flex-start;
+    background-color: 
+    #FFD1D1;
+    align-items: center;
+
+}
+
+.right {
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: 
+    #FFD1D1;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav-i ,.nav-i-logo,.nav-i-1{
+    height: 4.5rem;
+    width: 6rem;
+    margin: 0rem 1rem 0rem 1rem;
+    color: #060814;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.nav-i-1{
+    width: 9rem;;
+}
+
+/* ------------------------------------------------- */
+/* submeny dropdown */
+
+.sub-menu-wrapper{
+    position: absolute;
+    top:4.5rem;
+    right: 1%;
+    width: 17.5rem;
+    max-height:0rem;
+    overflow: hidden;
+    border-radius: 40px;
+    transition: max-height 0.5s;
+
+}
+.sub-menu-wrapper.open-menu{
+    max-height: 23rem;
+}
+
+.sub-menu{
+    background:#fff;
+    padding: 20px;
+    margin:10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h3{
+    font-weight: 500;
+}
+.user-info img{
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 15px;;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 1rem 0 0.8rem;
+     
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#525252;
+    margin: 0.5rem 0;
+}
+
+.sub-menu-link p{
+    width:80%;   
+}
+.sub-menu-link img{
+    width:1.9rem;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding:   0.2rem;
+    margin-right: 2rem;
+}
+.sub-menu-link span{
+    font-size: 1.5rem;
+    transition: transform 0.5s;
+}
+.sub-menu-link:hover span{
+    transition: transform 0.5s;
+    transform: translateX(0.2rem);
+}
+.sub-menu-link:hover p{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.sub-menu-wrapper::before{
+    content: "";
+	position: absolute;
+	top: -0.6rem;
+	right: 3.5rem;
+	border: 10px solid;
+	border-color: transparent transparent rgb(254, 254, 254) transparent;
+}
+a{
+    color: inherit; 
+    text-decoration: none;
+}
+/* .............................. */

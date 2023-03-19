@@ -1,0 +1,422 @@
+div.sidebar {
+    width:15rem;
+    height: 100vh;
+
+}
+
+div.l1, div.l2 {
+    padding-left:0.8rem
+}
+
+div.l11,div.l12, div.l13,div.l14,div.l21 {
+    align-items:center;
+}
+
+.dasimg, .ugimg, .bdimg, .blimg, .acimg {
+    height:1.7rem;
+    padding-top:2px;
+}
+
+div.das {
+    padding-left:3px;
+}
+div.comtitle {
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+div.rev1 {
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+div.det1 {
+    background-color: #9d9999;
+    border-radius: 1rem;
+    box-shadow: 1rem gray;
+    padding-left: 1rem;
+    
+}
+
+p.revtitle {
+    font-size:1.5rem;
+}
+
+a.link {
+    text-decoration:none;
+    color:black;
+}
+
+div.det1:hover {
+    background-color: darkred;
+    color:white;
+
+}
+p.repstat0 {
+    color:darkred;
+}
+p.repstat1 {
+    color:darkgreen;
+}
+.vbar {
+    border-left: 3px solid black;
+    height:4rem;
+    padding-left:1rem;
+
+}
+div.imge {
+    padding-right:1rem;
+
+}
+
+/* from styles.css */
+
+/* table {
+    width:80%;
+    margin:50px auto;
+}
+
+th {
+    text-align:center;
+    font-size:1.4rem;
+}
+td {
+    text-align:center;
+    padding:10px;
+} */
+
+
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #e1dfdf;
+    font-family: "Poppins";
+}
+
+
+
+div.sidebar {
+    background-color: #FD9F9F;          
+    width: 15rem;
+    height: 100vh;
+
+    position: fixed;;
+   /* display: flex;
+    height: 1117px;
+    width: 330px; */
+
+}
+
+div.exsdbar {
+            
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+   /* height: 173px;
+    width: 1398px;*/
+
+}
+
+div.navbar {
+    display: flex;
+    height: 6rem;
+    background-color: #FFD1D1;
+    justify-content: space-between;
+}
+
+div.section {
+    display: flex;
+    flex-direction: column;
+}
+
+div.nleft {
+    display: flex;
+    height: 6rem;
+    align-items: center;
+}
+
+/* div.imge {
+    display: flex;
+    
+    height: 6rem;
+    width: 6rem;
+    margin-left: 1.5rem;
+}*/
+
+img.logo {
+    width: 5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+/*div.vbar {
+    height: 6rem ;
+}*/
+
+div.blink   {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: "Poppins";
+    padding: 0rem;
+}
+
+div.phi {
+    margin-bottom: 10px;
+}
+
+div.nright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.name {
+    margin-right: 2rem;
+    margin-bottom: 7px;
+}
+
+img.shut {
+    width: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+/* div.camptitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.campaign {
+    font-size:2rem;
+    font-weight: bolder;
+    margin-left: 3rem;
+} */
+
+button.btn {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    margin-right: 2rem;
+    border: none;
+    background-color: #FD9F9F;
+    
+}
+
+div.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+div.l1 {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div.l11,div.l12, div.l13,div.l14,div.l21 {
+    display: flex;
+    padding-left: 0.5rem;
+    /* flex-direction: column; */
+    margin-bottom: 1.5rem;
+    align-items: center;
+    height: 3rem;
+    transition: background-color 0.5s ease;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+div.l14{
+    height: 4rem;
+}
+
+div.das {
+    font-size: 1.3rem;
+}
+
+div.das:hover {
+    font-size: 1.6rem;
+}
+
+/* other */
+
+/* div.sidebar {
+    width:14rem;
+    height: 100vh;
+
+} */
+
+div.l1, div.l2 {
+    padding-left:0.8rem
+}
+
+/* .blackline {
+    position: absolute;
+    left: 27.68rem;
+    height: 4rem;
+    width:2rem;
+    display: flex;
+    background-color: #000;
+    border-radius: 10px;
+    border: 0.2px solid #000000;
+   transform: rotate(-90deg);
+    align-items: center;
+    padding-left:2px;
+} */
+
+/* div.blinkphi {
+    
+} */
+
+.vbar {
+    border-left: 3px solid black;
+    height:4rem;
+    padding-left:1rem;
+
+}
+
+div.imge {
+    padding-right:1rem;
+
+}
+
+button:hover {
+    background-color:darkred;
+    color:white;
+}
+
+/* div.upc {
+    background:green;
+    border-radius: 2rem;
+    padding:5px;
+}
+
+div.ong {
+    background:yellow;
+    border-radius: 2rem;
+    padding:5px;
+}
+
+div.rej {
+    background:red;
+    border-radius: 2rem;
+    padding:5px;
+} */
+
+div.l11,div.l12, div.l13,div.l14,div.l21 {
+    align-items:center;
+}
+
+.dasimg, .ugimg, .bdimg, .blimg, .acimg {
+    height:1.7rem;
+    padding-top:2px;
+}
+
+div.das {
+    padding-left:3px;
+}
+
+/* a.fdetail {
+    text-decoration:none;
+    color:black;
+} */
+
+
+/* --------card--------- */
+
+.sec3 {
+    /* width: 100rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.card {
+    width: 18rem;
+    height: 8rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 3px 10px grey;
+
+
+    /* align-items: center; */
+}
+/* 
+.c-top {
+    /* border-radius: 1px; 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+
+    height: 15rem;
+    background-color: #565656;
+    display:flex;
+    justify-content: center;
+} */
+
+.c-bottom {
+    height: 10;
+    padding-left: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    background-color: #D9D9D9;
+    
+}
+
+a {
+    text-decoration: none;
+    color:black;
+
+}
+
+div.rtitle{
+    font-size: 1.5rem;
+}
+
+div.repbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+button.repbtn{
+    background-color: #f79494;
+    border: none;
+    height: 2rem;
+    width: 3.5rem;
+    margin-right:2rem ;
+    border-radius: 1rem;
+}
+
+button:hover{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 3px 10px grey;}
+
+
+    /* -------active div-----------*/
+
+div.active{
+    background-color: #e1dfdf;
+    /* box-shadow: inset 8px 0px 8px grey; */
+
+    
+}
+div.actve{
+    font-size: 1.6rem;
+}
